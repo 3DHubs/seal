@@ -1,14 +1,16 @@
 # Seal
+
 [![Build Status](https://travis-ci.org/binaryberry/seal.svg)](https://travis-ci.org/binaryberry/seal)
 
-##What is it?
+## What is it?
 
 This is a Slack bot that publishes a team's pull requests to their Slack Channel, once provided the organisation name, the team members' github names, and a list of repos to follow. It is my first 20% project at GDS.
 
 ![image](https://github.com/binaryberry/seal/blob/master/images/readme/informative.png)
 ![image](https://github.com/binaryberry/seal/blob/master/images/readme/angry.png)
 
-##How to use it?
+## How to use it?
+
 Fork the repo and add/change the config file that relates to your github organisation. For example, the alphagov config file is located at [config/alphagov.yml](https://github.com/binaryberry/seal/blob/master/config/alphagov.yml).
 
 Include your team's name, the github names of your team members, the list of repos to follow, and the Slack channel you want to post to.
@@ -49,7 +51,8 @@ Any questions feel free to contact me on Twitter -  my handle is binaryberry
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-##How to run the tests?
+## How to run the tests?
+
 Just run `rspec` in the command line
 
 ## Diary of how this app was built
